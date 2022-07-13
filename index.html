@@ -1,0 +1,40 @@
+,<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Character Counter</title>
+
+
+  <!-- Custom Styles -->
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Real Time character Counter</h2>
+
+    <p class="para">Check your English text for grammar, spelling, and punctuation errors with Owais Idrisi real time char counter.</p>
+
+    <textarea id="textarea" cols="30" rows="10" maxlength="100" placeholder="Please Write here"></textarea>
+
+
+
+    <button onclick="copy()">Copy Text</button>
+
+    <div class="counter">
+      <p>Total character: <span class="total-count">0</span></p>
+      <p>Remaining: <span class="remain-count">100</span></p>
+    </div>
+
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>
